@@ -2,7 +2,6 @@ import streamlit as st
 import requests
 import json
 
-# IMPORTANT: Replace this with your actual API Gateway Invoke URL
 API_ENDPOINT = "https://jgb8c6f5wi.execute-api.us-east-2.amazonaws.com/"
 
 st.set_page_config(page_title="URL Shortener", layout="centered")
